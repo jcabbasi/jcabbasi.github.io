@@ -361,6 +361,40 @@ main {
 
 
 
+.news {
+  padding: 0em;
+  margin: 0 auto;
+  text-align: left;
+  box-shadow: var(--shadow);
+  transition: transform 0.1s linear;
+}
+
+.news:hover {
+  transform: translateY(-5px);
+}
+
+.news__description {
+  margin-top: .4em;
+}
+
+.news__stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin: .8em 0;
+}
+
+.news__stack-item {
+  margin: 0.2em;
+  font-weight: normal;
+  font-size: 0.6rem;
+  color: var(--clr-fg-alt);
+}
+
+.news.link--icon {
+  margin-left: 0.6em;
+}
+
 
 
 
