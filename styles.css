@@ -139,6 +139,23 @@ button {
   font-size: 1.2rem;
 }
 
+
+.btn2 {
+  display: block;
+  padding: 0.8em 1.4em;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-transform: lowercase;
+  transition: transform 0.2s ease-in-out;
+}
+.btn2--outline {
+  color: var(--clr-blue);
+  border: 2px solid var(--clr-primary);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
 .btn {
   display: block;
   padding: 0.8em 1.4em;
@@ -155,6 +172,8 @@ button {
   overflow: hidden;
   z-index: 1;
 }
+
+
 
 .btn--outline:focus,
 .btn--outline:hover {
@@ -365,6 +384,7 @@ main {
   padding: 0em;
   margin: 0 auto;
   text-align: left;
+  text-transform: none;
   box-shadow: var(--shadow);
   transition: transform 0.1s linear;
 }
