@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Jassem Abbasi</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://jcabbasi.github.io/" class="link"
+          >  <img src="logo.png" alt="Logo" width="150" height="80">  </a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#news">news</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#exp">experiences</a>
+          </li>		  
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>		  
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Papers</a>
+          </li>		  
+
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fancy Image Gallery with Descriptions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            grid-gap: 15px;
+            padding: 20px;
+        }
+        .gallery-item {
+            text-align: center;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+        .description {
+            margin-top: 8px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        /* Lightbox styling */
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+        }
+        .lightbox img {
+            width: 80%;
+            max-width: 900px;
+            border-radius: 10px;
+        }
+        .lightbox:target {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Gallery</h1>
+    <div class="gallery">
+        <div class="gallery-item">
+            <a href="#img1"><img src="images/digitaleinstein.jpeg" alt="Digital Einstein"></a>
+            <p class="description">Digital Einstein at ETH Zurich (main campus), Sep. 2024</p>
+        </div>
+        <div class="gallery-item">
+            <a href="#img2"><img src="images/energynorway2024.jpg" alt="energynorway2024"></a>
+            <p class="description">Presenting at Energy Norway 2024, April 2024, Stavanger, Norway</p>
+        </div>
+        <div class="gallery-item">
+            <a href="#img3"><img src="images/image3.jpg" alt="Image 3"></a>
+            <p class="description">This is a description for Image 3</p>
+        </div>
+        <!-- Add more images as needed -->
+    </div>
+
+    <!-- Lightbox Modals -->
+    <div id="img1" class="lightbox">
+        <a href="#"><img src="images/digitaleinstein.jpeg" alt="Digital Einstein at ETH Zurich (main campus), Sep. 2024"></a>
+    </div>
+    <div id="img2" class="lightbox">
+        <a href="#"><img src="images/energynorway2024.jpg" alt="Presenting at Energy Norway 2024"></a>
+    </div>
+    <div id="img3" class="lightbox">
+        <a href="#"><img src="images/image3.jpg" alt="Image 3 Enlarged"></a>
+    </div>
+
+</body>
+</html>
+
+
+    </main>
+
+    <footer class="footer">
+      <a
+        href=""
+        class="link footer__link"
+      >
+        
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
