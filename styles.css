@@ -526,7 +526,8 @@ main {
 			}
 			h1 {
 				text-align: center;
-				color: #333;
+				color: var(--clr-fg-alt);
+
 			}
 			.gallery {
 				display: grid;
@@ -550,8 +551,9 @@ main {
 			}
 			.description {
 				margin-top: 8px;
-				font-size: 14px;
-				color: #555;
+				font-size: 16px;
+				color: var(--clr-fg-alt);
+;
 			}
 
 			/* Lightbox styling */
@@ -574,5 +576,7 @@ main {
 			.lightbox:target {
 				display: flex;
 			}
+		
+		
 		</style>
 	</head>
