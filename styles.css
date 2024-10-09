@@ -511,7 +511,7 @@ main {
   }
 }
 
-	<head>
+
 
 		
 		<meta charset="UTF-8">
@@ -526,7 +526,7 @@ main {
 			}
 			h1 {
 				text-align: center;
-				color: var(--clr-fg-alt);
+				color: var(--clr-fg);
 
 			}
 			.gallery {
@@ -550,9 +550,9 @@ main {
 				box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 			}
 			.description {
-				margin-top: 8px;
-				font-size: 16px;
-				color: var(--clr-fg-alt);
+				margin-top: 9px;
+				font-size: 17px;
+				color: var(--clr-fg);
 ;
 			}
 
@@ -578,5 +578,5 @@ main {
 			}
 		
 		
-		</style>
+
 	</head>
