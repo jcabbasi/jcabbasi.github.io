@@ -1,13 +1,5 @@
-# Cleanfolio Minimal
+Hello, this is Jassem Abbasi!
+Reservoir Engineer   |   Scientific Machine Learning Engineer
+Wellcome to my blog!
 
-A portfolio template built with HTML, CSS, and JavaScript.
-
-## Preview
-
-[![imgur](https://i.imgur.com/5z7cvMz.gif)](https://rajshekhar26.github.io/cleanfolio-minimal)
-
-[Live Demo](https://rajshekhar26.github.io/cleanfolio-minimal)
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+I am a scientific ML engineer and reservoir engineer with experience in working close with university and industry, professional in numerical analysis of physical processes, especially flow in porous media and four years of research, in the field of Scientific Machine Learning, and Deep Learning.
